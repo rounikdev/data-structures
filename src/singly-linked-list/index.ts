@@ -29,8 +29,7 @@ export class SinglyLinkedList<T> {
   }
 
   /**
-   * Creates a SinglyLinkedList from
-   * an array
+   * Creates a SinglyLinkedList from an array
    *
    * Time complexity: O(n)
    * Space complexity: O(n)
