@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "src",
+    "downlevelIteration": true,
+    "esModuleInterop": true,
+    "lib": ["ESNext"],
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "paths": {
+      "@helpers": ["./helpers"],
+      "@helpers/*": ["./helpers/*"]
+    },
+    "plugins": [
+      {
+        "transform": "@zerollup/ts-transform-paths"
+      }
+    ],
+    "sourceMap": true,
+    "strict": true,
+    "target": "ES2015"
+  },
+  "files": ["./src/index.ts"],
+  "include": ["./src/**/*.ts"],
+  "exclude": ["node_modules", "src/**/*.test.ts"],
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs"
+    }
+  }
+}
