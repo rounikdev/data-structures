@@ -24,8 +24,7 @@ export class BinaryHeap<T> {
   }
 
   /**
-   * Returns the root element without
-   * extracting it.
+   * Returns the root element without extracting it.
    *
    * NB: Don't modify if it's an object
    *

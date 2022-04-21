@@ -22,7 +22,7 @@ jobs:
       - name: Publish to NPM
         uses: JS-DevTools/npm-publish@v1
         with:
-          access: public
+          access: 'public'
           token: ${{ secrets.NPM_TOKEN }}
 
       - name: Deploy to GitHub pages
