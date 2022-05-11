@@ -1,12 +1,20 @@
 module.exports = {
   collectCoverage: true,
   coverageDirectory: 'coverage',
+  coverageReporters: [
+    'clover',
+    'cobertura',
+    'json',
+    'json-summary',
+    'lcov',
+    'text'
+  ],
   coverageThreshold: {
     global: {
       branches: 80,
-      functions: 90,
-      lines: 90,
-      statements: 90
+      functions: 95,
+      lines: 95,
+      statements: 95
     }
   },
   moduleDirectories: ['node_modules', 'src'],

@@ -1,12 +1,16 @@
-# data-structures
+# @rounik/data-structures
 
 Collection of TypeScript data structures
 
-## Technologies:
+## Unit tests coverage
 
-- [Typescript](https://www.typescriptlang.org/)
-- [Yarn](https://yarnpkg.com/)
-- [Jest](https://github.com/kulshekhar/ts-jest)
+![badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/rounikdev/776b4067b7dc294ceca34db522b91871/raw/coverage-unit-statements.json)
+
+![badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/rounikdev/776b4067b7dc294ceca34db522b91871/raw/coverage-unit-branches.json)
+
+![badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/rounikdev/776b4067b7dc294ceca34db522b91871/raw/coverage-unit-functions.json)
+
+![badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/rounikdev/776b4067b7dc294ceca34db522b91871/raw/coverage-unit-lines.json)
 
 ## Contents:
 
